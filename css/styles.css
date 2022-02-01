@@ -1,0 +1,187 @@
+* {
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+body {
+    text-align: center;
+    background-color: black;
+    color: #fff;
+}
+
+main {
+    padding: 10% 10% 5%;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+hr {
+    margin: 1% 0%;
+    width: 10%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1em 0;
+    padding-right: 1em;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* sections */
+
+/* NAVBAR */
+
+.navbar-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    margin-right: 5%;
+    margin-left: auto;
+
+}
+
+#name {
+    text-align: left;
+    padding-top: 10%;
+}
+
+#skills {
+    text-align: left;
+    margin-top: 2%;
+
+}
+
+#contact {
+    margin-top: 10%;
+    
+}
+
+/* classes  */
+
+/* header */
+
+.logo {
+    margin-right: auto;
+    margin-left: 10%;
+    width: 10%;
+}
+
+.heading-h1 {
+    margin-top: 10%;
+}
+
+.heading-h2 {
+    font-size: 1rem;
+    padding-top: 2%;
+}
+
+.header-quote {
+    padding-top: 2%;
+}
+
+/* header */
+
+.profile-pic {
+    height: 30%;
+    width: 70%;
+}
+
+/* name section */
+
+.name-div {
+    text-align:justify;
+}
+
+.name-div-p {
+    padding-top: 10px;
+}
+
+/* Skills Section */
+
+.skills-div {
+    margin-top: 10%;
+}
+
+.skills-p {
+    padding: 1% 0;
+}
+
+.skills-p.first {
+    padding-top: 0;
+}
+
+.skillbar {
+  
+    background-color: #fff;
+}
+
+.inner-skillbar-div {
+    background-color: #616161;
+}
+
+.inner-skillbar-div.front {
+    width: 50%;
+}
+
+.inner-skillbar-div.ios {
+    width: 0%;
+}
+
+.inner-skillbar-div.back {
+    width: 5%;
+}
+
+/* Contact Section */
+
+.main-div-contact {
+
+}
+
+.contact-icons {
+
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding: 5%;
+}
+.contact-hr {
+
+    margin:  1% auto 1%;
+}
+.fas.fa-mobile {
+    color: #fff;
+}
+
+.contact-child-div {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    
+    
+}
+/* Icons Container */
+
+.icons-div {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding: 3% 0;   
+}
+
+
+/* Footer */ 
+
+.footer-p {
+    color: dimgray;
+    padding: 2%;
+}
